@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+android:background="#000"
+    android:id="@+id/all"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Confirm "
+        android:textStyle="bold"
+        android:textColor="#fff"
+     android:background="@drawable/cofirm"
+   android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+
+android:id="@+id/confirm"
+        android:layout_weight="1"/>
+
+  </LinearLayout>
+      <GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="2"
+    android:orientation="vertical"
+    android:id="@+id/grid_list"
+
+android:background="@drawable/coffee"
+    android:choiceMode="singleChoice"
+    >
+
+</GridView>
+</LinearLayout>
