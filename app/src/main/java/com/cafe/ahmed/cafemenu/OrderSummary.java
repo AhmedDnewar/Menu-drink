@@ -159,9 +159,7 @@ mTotalPrice.setText(""+all);
         super.onResume();
         shared = getSharedPreferences("saveData", Context.MODE_PRIVATE);
         textOrder.append(shared.getString("coffee", ""));
-int h = all;
-     h=   shared.getInt("All",all+h);
-mTotalPrice.setText("hh"+h);
+
     }
 
 
