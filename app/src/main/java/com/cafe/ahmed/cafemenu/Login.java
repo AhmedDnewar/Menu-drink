@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
                     i1.putExtra("name", customrNmae);
                     i1.putExtra("number", tableNumber);
                     startActivity(i);
-                    Log.v("jjjjjjjjjjjjjjj", tableNumber + "     " + customrNmae);
+                  
                 }
             }
 
